@@ -1,0 +1,22 @@
+#include <iostream> // Define iostream
+using namespace std; // menggunakan std
+
+int main() // program utama
+{
+    //3! = 3*2*1= 6
+    // faktorial
+
+    int angka, hasil;
+
+    cout<<"Angka : ";
+    cin>>angka;
+
+        hasil=1;
+        for(int i=angka; i>=1; i--)
+    {
+        hasil=hasil*i;
+}
+
+    cout<< "Hasil : "<<hasil;
+
+}
